@@ -8,7 +8,10 @@ if (args.Length < 2)
     return;
 }
 
+Console.WriteLine(Environment.CurrentDirectory);
+
 var configuration = new ConfigurationBuilder()
+    .SetBasePath(Environment.CurrentDirectory)
     .AddJsonFile(args[0])
     .Build();
 
