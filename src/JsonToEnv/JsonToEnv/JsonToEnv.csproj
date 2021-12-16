@@ -8,6 +8,8 @@
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>json-to-env</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
+        <PackageProjectUrl>https://github.com/danikun/json-to-env</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/danikun/json-to-env/main/LICENSE</PackageLicenseUrl>
     </PropertyGroup>
 
     <ItemGroup>
